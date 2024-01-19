@@ -3,7 +3,7 @@
 
   :root {
     /* Colors */
-    --bg: #fff;
+    --bg: #F5D2D2;
     --bg-alt: #333;
     --bg-alt-2: #f0f0f0;
     --bg-transparent: #ffffffe8;
@@ -13,7 +13,7 @@
   
     /* Face animations */
    
-    --pink: url(../assets/icons/sun.png);
+    --pink: url(../assets/icons/pink.png);
   }
   
   /* DARK MODE */
@@ -28,7 +28,7 @@
   
    
   
-    --normal: url(../assets/icons/moon.png);
+    --normal: url(../assets/icons/normal.png);
   }
   
   /* COLOR MODE TOGGLE BUTTON */
@@ -48,13 +48,13 @@
   }
   
   #toggle-button {
-    background-image: var(--sun);
+    background-image: var(--pink);
     background-size: cover;
     cursor: pointer;
   }
   
   .dark-mode #toggle-button {
-    background-image: var(--moon);
+    background-image: var(--normal);
   }
   
   .dark-mode #color-mode {
