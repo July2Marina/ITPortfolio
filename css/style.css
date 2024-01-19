@@ -275,7 +275,7 @@ button {
 .btn {
   border-radius: 0;
   height: 3rem;
-  flex-basis: 50%;
+  flex-basis: 100%;
   font-weight: 600;
 }
 
