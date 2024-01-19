@@ -5,22 +5,22 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../assets/picture/Bild1.png);
+  content: url(../assets/picture/Pic1.png);
 } 
 
 
   :root {
     /* Colors */
-    --bg: #F5D2D2;
+    --bg: #f39cc0;
     --bg-alt: #333;
-    --bg-alt-2: #f0f0f0;
+    --bg-alt-2: #f2e9f0;
     --bg-transparent: #ffffffe8;
-    --border: 0.01rem solid #333;
-    --text: #333;
+    --border: 0.01rem solid #ece7ea;
+    --text:#f8edf5 ;
     --text-alt: #fff;
   
     /* Face animations */
-    --tl-1: url(../assets/picture/Bild1.png);
+   --tl-1: url(../assets/picture/Pic1.png);
    
     --pink: url(../assets/icons/pink.png);
   }

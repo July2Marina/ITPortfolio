@@ -209,7 +209,7 @@ function playAnimation(animation, reverseAnimation) {
 
 function playClosingAnimation(reverseAnimation) {
   tlBtn.innerHTML = "About";
-  trBtn.innerHTML = "Skills";
+  trBtn.innerHTML = "Experience";
   blBtn.innerHTML = "Projects";
   brBtn.innerHTML = "Contact";
 
@@ -252,7 +252,7 @@ tlBtn.onclick = function () {
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
-    trBtn.innerHTML = "Skills";
+    trBtn.innerHTML = "Experience";
     blBtn.innerHTML = "Projects";
     brBtn.innerHTML = "Contact";
 
@@ -293,7 +293,7 @@ trBtn.onclick = function () {
 
     // Setting activeCorner
     activeCorner = "top-right";
-    trBtn.innerHTML = "&uarr;<br/>Skills";
+    trBtn.innerHTML = "&uarr;<br/>Experience";
 
     handleWindowResize();
     playAnimation("animate-top-right", "reverse-animate-top-right");
@@ -323,7 +323,7 @@ blBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-left");
   } else {
     tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Skills";
+    trBtn.innerHTML = "Experience";
     brBtn.innerHTML = "Contact";
 
     // Setting activeCorner
@@ -358,7 +358,7 @@ brBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-right");
   } else {
     tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Skills";
+    trBtn.innerHTML = "Experience";
     blBtn.innerHTML = "Projects";
 
     // Setting activeCorner
