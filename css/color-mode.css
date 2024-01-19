@@ -5,7 +5,7 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(../assets/face-animation-light/bl-1.png);
+  content: url(../assets/picture/Bild1.png);
 } 
 
 
@@ -20,6 +20,7 @@ body:after {
     --text-alt: #fff;
   
     /* Face animations */
+    --tl-1: url(../assets/picture/Bild1.png);
    
     --pink: url(../assets/icons/pink.png);
   }
