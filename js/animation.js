@@ -209,7 +209,7 @@ function playAnimation(animation, reverseAnimation) {
 
 function playClosingAnimation(reverseAnimation) {
   tlBtn.innerHTML = "About";
-  trBtn.innerHTML = "Experience";
+  trBtn.innerHTML = "Skills";
   blBtn.innerHTML = "Projects";
   brBtn.innerHTML = "Contact";
 
