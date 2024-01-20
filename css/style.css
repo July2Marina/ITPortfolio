@@ -132,7 +132,7 @@ transform: rotate(45deg) scale(1.05);
 }
 
 article {
-  background-color: #F5D2D2;
+  background-color: #f2efef;
   font-size: 0.8rem;
   list-style: none;
   border: var(--border);
