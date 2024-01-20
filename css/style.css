@@ -132,7 +132,7 @@ transform: rotate(45deg) scale(1.05);
 }
 
 article {
-  background-color: rgb(246, 241, 241);
+  background-color: #F5D2D2;
   font-size: 0.8rem;
   list-style: none;
   border: var(--border);
@@ -336,4 +336,15 @@ button {
 .btn-contact {
   border: var(--border);
   border-radius: 2rem;
+}
+
+.JMF {
+  width: 20%;
+  height: 20%;
+  margin-top: -60px;
+  margin-bottom: 30px;
+  
+  
+  
+  
 }

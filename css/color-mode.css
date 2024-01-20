@@ -33,12 +33,12 @@ body:after {
   :root {
     /* Colors */
     --bg: #f39cc0;
-    --bg-alt: #333;
+    --bg-alt: #F5D2D2;
     --bg-alt-2: #f2e9f0;
-    --bg-transparent: #ffffffe8;
-    --border: 0.01rem solid #ece7ea;
-    --text:#f8edf5 ;
-    --text-alt: #fff;
+    --bg-transparent: #F5D2D2;
+    --border: 0.1rem solid #333;
+    --text:#333 ;
+    --text-alt: #333;
   
     /* Face animations */
    --tl-1: url(../assets/picture/Pic1.png);
@@ -75,8 +75,33 @@ body:after {
     --bg-alt: #3c3d40;
     --bg-alt-2: #333;
     --bg-transparent: #333333f5;
-    --border: 0.01rem solid #5a5a5a;
+    --border: 0.1rem solid #5a5a5a;
     --text: #fff;
+
+    --tl-1: url(../assets/picture/Profi.png);
+    --tl-2: url(../assets/picture/Profi.png);
+    --tl-3: url(../assets/picture/Profi.png);
+    --tl-4: url(../assets/picture/Profi.png);
+    --tl-5: url(../assets/picture/Profi.png);
+  
+    --tr-1: url(../assets/picture/Profi.png);
+    --tr-2: url(../assets/picture/Profi.png);
+    --tr-3: url(../assets/picture/Profi.png);
+    --tr-4: url(../assets/picture/Profi.png);
+    --tr-5: url(../assets/picture/Profi.png);
+  
+    --bl-1: url(../assets/picture/Profi.png);
+    --bl-2: url(../assets/picture/Profi.png);
+    --bl-3: url(../assets/picture/Profi.png);
+   
+    --bl-4: url(../assets/picture/Profi.png);
+    --bl-5: url(../assets/picture/Profi.png);
+  
+    --br-1: url(../assets/picture/Profi.png);
+    --br-2: url(../assets/picture/Profi.png);
+    --br-3: url(../assets/picture/Profi.png);
+    --br-4: url(../assets/picture/Profi.png);
+    --br-5: url(../assets/picture/Profi.png);
   
    
   
